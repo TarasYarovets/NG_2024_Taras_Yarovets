@@ -17,29 +17,29 @@ int main()
     switch (choose) {
         case 1:
             answer = firstnumber + secondnumber;
-            cout << "This your number: " << answer << endl;
+            cout << "This your number(sum): " << answer << endl;
             break;
         case 2:
             answer = firstnumber - secondnumber;
-            cout << "This your number: " << answer << endl;
+            cout << "This your number(difference): " << answer << endl;
             break;
         case 3:
             answer = firstnumber * secondnumber;
-            cout << "This your number: " << answer << endl;
+            cout << "This your number(multiplication): " << answer << endl;
             break;
         case 4:
             answer = firstnumber/secondnumber;
-            cout << "This your number: " << answer << endl;
+            cout << "This your number(division): " << answer << endl;
             break;
         case 5:
             answer = pow(firstnumber,2);
             answr = pow(secondnumber,2);
-            cout << "This your first number: " << answer << "\nThis your second number: " << answr << endl;
+            cout << "This your first number(square): " << answer << "\nThis your second number(square): " << answr << endl;
             break;
         case 6:
             answer = sqrt(firstnumber);
             answr = sqrt(secondnumber);
-            cout << "This your first number: " << answer << "\nThis your second number: " << answr << endl;
+            cout << "This your first number(root): " << answer << "\nThis your second number(root): " << answr << endl;
             break;
     }
 }
